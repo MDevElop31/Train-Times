@@ -40,9 +40,6 @@ var database = firebase.database();
   console.log(newTrain.first);
   console.log(newTrain.frequency);
 
-  // Alert
-  alert("Train successfully added");
-
   // Clears all of the text-boxes
   $("#train-name-input").val("");
   $("#destination-input").val("");
